@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "lib": ["ES2015"]
+  },
+  "include": [
+    "1_intro/**/*.ts",
+    "2_types_annotation/**/*.ts",
+    "3_typescript_number/**/*.ts",
+    "4_typescript_string/**/*.ts",
+    "5_typescript_boolean/**/*.ts",
+    "6_typescript_object_type/**/*.ts",
+    "7_typescript_arrray_type/**/*.ts",
+    "8_typescript_tuple/**/*.ts",
+    "9_typescript_enum/**/*.ts",
+    "10_typescript_unknown_type/**/*.ts"
+  ],
+  "exclude": ["node_modules", "**/*.js"]
+}
